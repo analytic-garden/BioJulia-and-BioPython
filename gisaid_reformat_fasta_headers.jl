@@ -1,3 +1,14 @@
+#=
+gisaid_reformat_fasta_headers.jl
+    Reformat fasta headers to make gisaid_epi_isl record id.
+    New fasta header contains country of exposure, lineaage, and 
+    gisaid_epi_isl as elements 4 through 6 of description.
+
+@author: Bill Thompson
+@license: GPL 3
+@copyright: 2021_04_05
+=#
+
 using Pkg
 Pkg.activate(".")
 Pkg.instantiate()
